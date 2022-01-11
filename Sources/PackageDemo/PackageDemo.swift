@@ -3,4 +3,8 @@ public struct PackageDemo {
 
     public init() {
     }
+    
+    public func getHello() -> String {
+        return "Hello!"
+    }
 }
